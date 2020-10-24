@@ -6,6 +6,24 @@
     --font-semi: 600;
 }
 
+/*===== Thank you =====*/
+.thank_you {
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+/*===== About, SKills=====*/
+.about__container {
+    background-color: #fff;
+    row-gap: 2rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.skills__container {
+    border-radius: 20px;
+    background-color: #fff;
+    row-gap: 2rem;
+    text-align: center;
+}
 /*===== Colores =====*/
 :root {
     --first-color: rgb(255, 172, 39);
@@ -18,10 +36,6 @@
     --big-font-size: 2rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: 0.938rem;
-}
-.thank_you {
-    padding-top: 50px;
-    padding-bottom: 300px;
 }
 
 @media screen and (min-width: 768px) {
