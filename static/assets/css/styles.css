@@ -8,8 +8,8 @@
 
 /*===== Colores =====*/
 :root {
-    --first-color: #4070f4;
-    --second-color: #0e2431;
+    --first-color: rgb(255, 172, 39);
+    --second-color: black;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -203,6 +203,7 @@ img {
     align-self: center;
 }
 .home__title {
+    color: wheat;
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
 }
