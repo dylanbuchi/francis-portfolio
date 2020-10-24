@@ -10,6 +10,14 @@
     padding-top: 50px;
     padding-bottom: 300px;
 }
+/* 
+THANKS */
+h3.thanks-h3 {
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 /*===== About, SKills=====*/
 /* .about__img {
     width: 100%;
@@ -383,6 +391,21 @@ a.button {
 }
 
 /* ===== CONTACT =====*/
+
+/* 
+contact-icons */
+
+.contact-icon-div {
+    padding-top: 50px;
+}
+.ic-gc {
+    padding-top: 20px;
+    color: white;
+}
+.ic-gc:hover {
+    padding: 20px;
+    color: red;
+}
 .contact__input {
     width: 100%;
     font-size: var(--normal-font-size);
@@ -430,6 +453,10 @@ a.button {
 
 /* pc */
 @media screen and (min-width: 768px) {
+    .ic-gc {
+        padding: 20px;
+        color: white;
+    }
     .home__data {
         padding-top: 100px;
     }
@@ -439,6 +466,7 @@ a.button {
         border-radius: 20px;
     }
     .thank_you {
+        justify-content: center;
         padding-top: 100px;
         padding-bottom: 300px;
     }
