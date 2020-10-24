@@ -172,6 +172,7 @@ img {
 }
 
 /*===== NAV =====*/
+
 .nav {
     background-color: transparent;
     height: var(--header-height);
@@ -398,12 +399,17 @@ contact-icons */
 .contact-icon-div {
     padding-top: 50px;
 }
+
+.ic-gc-nav {
+    padding-top: 20px;
+    color: black;
+}
 .ic-gc {
     padding-top: 20px;
     color: white;
 }
-.ic-gc:hover {
-    padding: 20px;
+.ic-gc:hover,
+.ic-gc-nav:hover {
     color: red;
 }
 .contact__input {
