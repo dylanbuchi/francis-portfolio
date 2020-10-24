@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 /*===== VARIABLES CSS =====*/
 
 .about__img {
@@ -430,7 +431,7 @@ a.button {
 /* pc */
 @media screen and (min-width: 768px) {
     .home__data {
-        padding-bottom: 50px;
+        padding-top: 100px;
     }
     .about__img {
         width: 100%;
