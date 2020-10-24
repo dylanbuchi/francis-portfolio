@@ -242,6 +242,7 @@ img {
     row-gap: 1rem;
 }
 .home__data {
+    padding-bottom: 100px;
     align-self: center;
 }
 .home__title {
@@ -271,7 +272,9 @@ img {
     bottom: 0;
     width: 295px;
 }
-
+a.button {
+    margin-top: 20px;
+}
 /*BUTTONS*/
 .button {
     display: inline-block;
@@ -423,7 +426,12 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
+
+/* pc */
 @media screen and (min-width: 768px) {
+    .home__data {
+        padding-bottom: 50px;
+    }
     .about__img {
         width: 100%;
         justify-self: left;
