@@ -505,7 +505,7 @@ contact-icons */
     }
     .form-div {
         padding-top: 100px;
-        padding-left: 30px;
+        padding-left: 0px;
         width: 50%;
         overflow: hidden;
         float: left;
@@ -513,7 +513,7 @@ contact-icons */
     .parent-contact {
         margin-top: 100px;
         padding-top: 10px;
-        padding-left: 100px;
+        padding-left: 70px;
         overflow: hidden;
     }
     li {
