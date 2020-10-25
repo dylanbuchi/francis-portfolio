@@ -9,8 +9,8 @@ app = Flask(__name__)
 def write_to_csv_file(data: dict):
     path = os.path.join(os.getcwd(), 'data', 'emails.csv')
     with open(path, 'a', newline='') as csv_file:
-        email = data['name']
-        subject = data['email']
+        email = data['email']
+        subject = data['subject']
         message = data['message']
 
         csv_writer = csv.writer(csv_file,
