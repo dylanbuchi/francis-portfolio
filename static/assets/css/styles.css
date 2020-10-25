@@ -493,10 +493,16 @@ contact-icons */
     margin: 0 var(--mb-2);
 }
 
+.git__image {
+    padding-bottom: 20px;
+}
 /* ===== MEDIA QUERIES=====*/
 
 /* pc */
 @media screen and (min-width: 768px) {
+    .git__image {
+        margin: 20px;
+    }
     .ul-div {
         padding-top: 100px;
         padding-left: 100px;
@@ -539,6 +545,8 @@ contact-icons */
         padding-top: 100px;
     }
     .about__img {
+        padding-left: 20px;
+        padding-bottom: 450px;
         width: 100%;
         justify-self: left;
         border-radius: 20px;
