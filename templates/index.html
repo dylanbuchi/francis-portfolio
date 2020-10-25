@@ -90,16 +90,34 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">
+                    <div
+                        class="hero-full-container background-image-container white-text-container"
+                    >
+                        <div class="hero-full-wrapper">
+                            <div class="text-content">
+                                <h1 class="home__title">
+                                    <span id="typed-strings">
+                                        <span>Hi, I'm Francis Brempong</span>
+                                        <span>Cybersecurity Analyst</span>
+                                        <span>
+                                            AI/ML | Python | Java | Linux |
+                                        </span>
+                                        <span> and Penetration Testing</span>
+                                    </span>
+                                    <span id="typed"></span>
+                                </h1>
+                            </div>
+                        </div>
+                        <!-- <h1 class="home__title">
                         Hi,<br />I'm
                         <span class="home__title-color">Francis Brempong</span
                         ><br />
                         Cybersecurity Analyst
-                    </h1>
+                    </h1> -->
 
-                    <a href="about.html" class="button">More</a>
-                </div>
-                <!-- 
+                        <a href="about.html" class="button">More</a>
+                    </div>
+                    <!-- 
                     <div class="home__social">
                         <a href="" class="home__social-icon"
                             ><i class="bx bxl-linkedin"></i
@@ -112,9 +130,10 @@
                         ></a>
                     </div> -->
 
-                <!-- <div class="home-img">
+                    <!-- <div class="home-img">
                     <img class="home-pp" src="assets/img/about.jpg" alt="" />
                 </div> -->
+                </div>
             </section>
         </main>
 
@@ -134,9 +153,14 @@
             </div>
             <p>&#169; 2020 | Francis Brempong. All rights reserved.</p>
         </footer>
-
+        <script>
+            document.addEventListener("DOMContentLoaded", function (event) {
+                type();
+            });
+        </script>
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="../static/assets/js/script.js"></script>
 
         <!--===== MAIN JS =====-->
         <script src="../static/assets/js/main.js"></script>

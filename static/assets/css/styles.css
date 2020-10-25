@@ -1,8 +1,28 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-/*===== VARIABLES CSS =====*/
 
+/*===== VARIABLES CSS =====*/
+/* 
+TITLE HOME MOVE */
+.hero-full-container {
+    height: 100vh;
+}
+
+.hero-full-container h1 {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+}
+
+.hero-full-container .hero-full-wrapper {
+    padding-top: 100px;
+    display: table;
+}
+
+.hero-full-container .hero-full-wrapper .text-content {
+    vertical-align: middle;
+    display: table-cell;
+}
 .about__img {
     width: 200px;
 }
@@ -18,6 +38,7 @@ h3.thanks-h3 {
     padding-left: 100px;
     padding-right: 100px;
 }
+
 /*===== About, SKills=====*/
 /* .about__img {
     width: 100%;
