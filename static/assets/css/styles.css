@@ -6,6 +6,14 @@
 /* 
 TITLE HOME MOVE */
 
+.ul-div {
+    width: 100%;
+    padding-left: 100px;
+}
+.form-div {
+    padding: 50px;
+    width: 100%;
+}
 .hero-full-container {
     height: 100vh;
 }
@@ -489,6 +497,30 @@ contact-icons */
 
 /* pc */
 @media screen and (min-width: 768px) {
+    .ul-div {
+        padding-top: 100px;
+        padding-left: 100px;
+        width: 50%;
+        float: right;
+    }
+    .form-div {
+        padding-top: 100px;
+        padding-left: 30px;
+        width: 50%;
+        overflow: hidden;
+        float: left;
+    }
+    .parent-contact {
+        margin-top: 100px;
+        padding-top: 10px;
+        padding-left: 100px;
+        overflow: hidden;
+    }
+    li {
+        padding-bottom: 20px;
+        padding-left: 10px;
+        float: none;
+    }
     .footer {
         margin-top: 140px;
     }
@@ -501,7 +533,6 @@ contact-icons */
         color: black;
     }
     .ic-gc {
-        padding: 20px;
         color: white;
     }
     .home__data {
