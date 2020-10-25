@@ -22,6 +22,10 @@ h3.thanks-h3 {
 /* .about__img {
     width: 100%;
 } */
+.ic-gc-nav {
+    padding-top: 20px;
+    color: white;
+}
 .about__text,
 .about__subtitle,
 .skills__subtitle,
@@ -376,6 +380,7 @@ a.button {
 
 /* ===== WORK =====*/
 .work__container {
+    width: auto;
     row-gap: 2rem;
 }
 .work__img {
@@ -400,10 +405,6 @@ contact-icons */
     padding-top: 50px;
 }
 
-.ic-gc-nav {
-    padding-top: 20px;
-    color: black;
-}
 .ic-gc {
     padding-top: 20px;
     color: white;
@@ -459,6 +460,10 @@ contact-icons */
 
 /* pc */
 @media screen and (min-width: 768px) {
+    .ic-gc-nav {
+        padding-top: 20px;
+        color: black;
+    }
     .ic-gc {
         padding: 20px;
         color: white;
