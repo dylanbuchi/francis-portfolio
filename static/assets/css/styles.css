@@ -5,6 +5,7 @@
 /*===== VARIABLES CSS =====*/
 /* 
 TITLE HOME MOVE */
+
 .hero-full-container {
     height: 100vh;
 }
@@ -277,7 +278,7 @@ img {
     row-gap: 1rem;
 }
 .home__data {
-    padding-bottom: 100px;
+    padding-top: 25%;
     align-self: center;
 }
 .home__title {
@@ -457,6 +458,11 @@ contact-icons */
     background-color: #9ec9f5;
 } */
 /* ===== FOOTER =====*/
+
+.footer-copyright {
+    padding: 10px;
+    padding-bottom: 30px;
+}
 .footer {
     padding-bottom: 30px;
     background-color: var(--second-color);
@@ -469,7 +475,8 @@ contact-icons */
     margin-bottom: var(--mb-4);
 }
 .footer__social {
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: var(--mb-4);
 }
 .footer__icon {
@@ -482,6 +489,13 @@ contact-icons */
 
 /* pc */
 @media screen and (min-width: 768px) {
+    .footer {
+        margin-top: 140px;
+    }
+    .footer-copyright {
+        padding: 10px;
+        padding-bottom: 30px;
+    }
     .ic-gc-nav {
         padding-top: 20px;
         color: black;
