@@ -388,6 +388,7 @@ a.button {
     border-radius: 0.5rem;
     overflow: hidden;
 }
+
 .work__img img {
     transition: 1s;
     cursor: pointer;
