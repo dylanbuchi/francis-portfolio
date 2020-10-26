@@ -613,6 +613,9 @@ contact-icons */
 /* pc */
 
 @media screen and (min-width: 768px) {
+    .project-snt-image {
+        padding-top: 300px;
+    }
     .project-button {
         margin-left: 20px;
         border-radius: 20px;
