@@ -302,7 +302,8 @@ img {
 }
 
 .nav__item {
-    margin-bottom: var(--mb-4);
+    /* margin-bottom: var(--mb-4); */
+    margin-bottom: 20px;
 }
 .nav__link {
     position: relative;
