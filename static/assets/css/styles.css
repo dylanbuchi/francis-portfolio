@@ -7,11 +7,21 @@
 TITLE HOME MOVE */
 
 /* IMPACT  */
-.l1 {
+
+/* .l1 {
     padding: 20px;
 }
 .l2 {
-    padding: 30px;
+    padding: 20px;
+}
+
+.l3 {
+    padding: 20px;
+} */
+.buttons-impact {
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 a.github-link,
@@ -38,10 +48,6 @@ a.snt-jude:active {
 
 .hope-div {
     height: auto;
-    background-color: white;
-    border-radius: 20px;
-}
-.volunteer-div {
     background-color: white;
     border-radius: 20px;
 }
@@ -226,7 +232,7 @@ img {
 .section-title-p::after {
     position: absolute;
     content: "";
-    width: 400px;
+    width: 200px;
     height: 0.18rem;
     left: 0;
     right: 0;
@@ -563,9 +569,47 @@ contact-icons */
     padding-bottom: 20px;
 }
 /* ===== MEDIA QUERIES=====*/
-
+.project-button {
+    margin-left: 55px;
+    border-radius: 20px;
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.volunteer-div {
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+}
 /* pc */
 @media screen and (min-width: 768px) {
+    .project-button {
+        margin-left: 20px;
+        border-radius: 20px;
+        background-color: red;
+        box-shadow: 0 5px 0 darkred;
+        color: white;
+        padding: 1em 1.5em;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .buttons-impact {
+        padding-left: 25px;
+        float: left;
+    }
+    .volunteer-div {
+        width: auto;
+        height: auto;
+        background-color: white;
+        border-radius: 20px;
+    }
+
     .l1 {
         padding: 10px;
         margin-left: 30px;
