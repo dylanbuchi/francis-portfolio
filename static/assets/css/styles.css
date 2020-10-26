@@ -655,7 +655,9 @@ contact-icons */
         padding-top: 0;
     }
     .nav__item {
-        margin-left: var(--mb-6);
+        padding-left: 30px;
+        padding-top: 20px;
+        margin-left: 0;
         margin-bottom: 0;
     }
     .nav__toggle {
