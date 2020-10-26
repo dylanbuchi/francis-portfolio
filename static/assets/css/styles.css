@@ -18,6 +18,24 @@ TITLE HOME MOVE */
 .l3 {
     padding: 20px;
 } */
+
+.title-hope {
+    padding-left: 25px;
+}
+
+.patent-button {
+    padding-left: 1px;
+    margin-left: 55px;
+    border-radius: 20px;
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .buttons-impact {
     padding-left: 10px;
     padding-top: 25px;
@@ -286,6 +304,12 @@ img {
     align-items: center;
     font-weight: var(--font-semi);
 }
+@media screen and (max-width: 1000px) {
+    .title-hope {
+        padding-left: 0px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .image-about {
         border-color: black;
@@ -587,6 +611,7 @@ contact-icons */
     border-radius: 20px;
 }
 /* pc */
+
 @media screen and (min-width: 768px) {
     .project-button {
         margin-left: 20px;
