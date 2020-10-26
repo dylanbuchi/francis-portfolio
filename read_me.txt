@@ -30,5 +30,5 @@ form data will be stored when someone submit it in the contact form.
 So you can open the file sometimes to see if you get some messages. :)
 
 --------------------------------------------------------------------------------------
-__pycache__ if you see this it's from python do not worry about it.
+
 
